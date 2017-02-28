@@ -3,4 +3,8 @@
     <string name="title">The score is: 0</string>
     <string name="imgbask">Basketball</string>
     <string name="alert">The game is over!</string>
+    <string name="dialog_text">The game is over. Restart?</string>
+    <string name="dialog_title">This is a dialog!</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_agree">Agree</string>
 </resources>

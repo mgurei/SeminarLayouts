@@ -7,7 +7,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/AppTheme">
+        android:id="@+id/my_action_bar"
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.personalportablehealthtechnology.actionbar.second_activity"
+            android:label="@string/title_second_activity"
+            android:parentActivityName="com.personalportablehealthtechnology.actionbar.MainActivity" >
+
+        </activity>
+
+
     </application>
 
 </manifest>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ActionBar</string>
+    <string name="action_search">Search</string>>
+    <string name="action_settings">Settings</string>
+    <string name="press_search">You pressed the search button!</string>
+    <string name="press_settings">You pressed the settings button!</string>
+    <string name="title_second_activity">Child activity</string>
 </resources>

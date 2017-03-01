@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         MenuItem searchItem = menu.findItem(R.id.action_search1);
         SearchView searchView =
                 (SearchView) MenuItemCompat.getActionView(searchItem);
-        
+
         return super.onCreateOptionsMenu(menu);
 
     }

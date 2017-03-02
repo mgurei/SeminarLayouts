@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void handleCountry(){
 
-        country = (AutoCompleteTextView) findViewById(R.id.autocomplete_country);
+            country = (AutoCompleteTextView) findViewById(R.id.autocomplete_country);
 
         countries = getResources().getStringArray(R.array.countries_array);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>

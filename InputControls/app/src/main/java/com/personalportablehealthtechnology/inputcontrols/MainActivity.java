@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         surname = (EditText) findViewById(R.id.edit_surname);
         pswd = (EditText) findViewById(R.id.edit_password);
 
-        handleCountry();
+        // handleCountry();
 
         color1 = (CheckBox) findViewById(R.id.checkbox_color1);
         color2 = (CheckBox) findViewById(R.id.checkbox_color2);
